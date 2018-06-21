@@ -26,3 +26,5 @@ virtualApk {
     targetHost='source/host/app' // The path of application module in host project  此处一定要更改为宿主项目的目录下.
     applyHostMapping = true      // [Optional] Default value is true. 
 }
+
+#宿主项目和插件项目的命名一定不要有重复
